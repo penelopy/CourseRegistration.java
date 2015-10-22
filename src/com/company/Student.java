@@ -6,7 +6,7 @@ import java.util.List;
 public class Student {
     final String name;
     final int numberPossibleClasses = 5;
-    List<Course> schedule = new ArrayList<Course>();
+    private List<Course> schedule = new ArrayList<Course>();
 
 
     public Student(String name) {
